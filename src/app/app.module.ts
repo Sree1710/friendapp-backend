@@ -7,11 +7,13 @@ import { ViewfriendComponent } from './viewfriend/viewfriend.component';
 import {HttpClientModule} from '@angular/common/http';
 import { AddfriendComponent } from './addfriend/addfriend.component'
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
     ViewfriendComponent,
-    AddfriendComponent
+    AddfriendComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
